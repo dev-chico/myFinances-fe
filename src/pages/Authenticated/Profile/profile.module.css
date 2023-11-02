@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 72px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.container h1 {
+  margin-top: 72px;
+  color: var(--dark-blue);
+}
+
+.container main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container main .info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container main .info h4 {
+  color: var(--dark-blue);
+}
+
+.container footer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.container footer .btnEdit {
+  background-color: var(--blue);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.container footer .btnEdit:hover {
+  background-color: var(--light-blue);
+}
+
+.container footer .btnEdit:active {
+  background-color: var(--dark-blue);
+}
+
+.container footer .btnDelete {
+  background-color: transparent;
+  color: #f33;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.formEdit {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modalDelete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.modalDelete h3 {
+  margin: 0;
+  text-align: center;
+  color: var(--red);
+}

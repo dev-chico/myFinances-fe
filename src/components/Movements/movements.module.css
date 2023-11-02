@@ -1,0 +1,69 @@
+.movements {
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  min-height: 150px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.movements header {
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--dark-blue);
+  background-color: var(--bg-light-blue);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.movements header span {
+  width: 200px;
+  color: var(--dark-blue);
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.movements main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+.movements main .item {
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--dark-blue);
+  padding-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.movements main .item span {
+  width: 200px;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.movements main .item.green span {
+  color: rgb(6, 151, 9);
+}
+
+.movements main .item.red span {
+  color: var(--red);
+}
+
+.movements .noData {
+  text-align: center;
+  margin-top: 32px;
+  color: var(--light-gray);
+}

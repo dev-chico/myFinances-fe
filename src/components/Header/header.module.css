@@ -1,0 +1,41 @@
+.container {
+  background-color: var(--dark-blue);
+  color: #fff;
+  padding: 24px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container h2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 1.8em;
+}
+
+.container nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 32px;
+}
+
+.container nav a {
+  color: #FFF;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.container nav button {
+  background-color: transparent;
+  color: #FFF;
+  font-size: 1.2em;
+  margin-left: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

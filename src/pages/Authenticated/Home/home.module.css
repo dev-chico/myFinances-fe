@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  padding: 24px;
+  padding-top: 72px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 12em;
+  flex-wrap: wrap;
+}
+
+.container main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container main h2 {
+  color: rgb(6, 151, 9);
+  font-size: 2.2em;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.container main .buttonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btnInvest {
+  background-color: rgb(6, 151, 9);
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  border-radius: 4px;
+}
+
+.btnInvest:hover {
+  background-color: rgb(20, 188, 23);
+}
+
+.btnInvest:active {
+  background-color: rgb(5, 116, 7);
+}
+
+.btnWithdraw {
+  background-color: transparent;
+  color: var(--red);
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--light-gray);
+}

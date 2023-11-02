@@ -1,0 +1,12 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--light-gray);
+}
